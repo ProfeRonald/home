@@ -1,5 +1,5 @@
-const CACHE = 'hogar-public-ab7a04e392f95a4b';
-const PUBLIC_ASSETS = ["./assets/browser-CqDbEFy1.js","./assets/index-BotHIBCN.js","./assets/index-C6yxLjRM.css","./assets/index-D9std1Z8.js","./assets/index-iPjrJSYw.js","./assets/index.esm-Bw7_zX36.js"];
+const CACHE = 'hogar-public-62b2d4e009b7406d';
+const PUBLIC_ASSETS = ["./assets/browser-CqDbEFy1.js","./assets/index-C6yxLjRM.css","./assets/index-CNlH2Ut0.js","./assets/index-D9std1Z8.js","./assets/index-iPjrJSYw.js","./assets/index.esm-DzwZMTTC.js"];
 const base = new URL('./', self.location);
 const shell = new URL('./index.html', base).href;
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll([shell, './icon-192.png', './icon-512.png', './person.jpg', ...PUBLIC_ASSETS]))));
